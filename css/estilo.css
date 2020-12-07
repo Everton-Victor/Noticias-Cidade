@@ -27,3 +27,48 @@ body {
 
 	text-indent: -30000px;
 }
+
+ul {
+	list-style: none;
+}
+
+#topo ul {
+	background: #B10333;
+	margin: 30px auto 0;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #FFF;
+	background: url(../img/divisor.png) no-repeat left center;
+}
+
+#topo ul a[href = "index.html"] {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #69001D;
+}
+
+
+body.home #navegacao a#home, 
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional, 
+body.economia #navegacao a#economia, 
+body.saude #navegacao a#saude, 
+body.ciencia #navegacao a#ciencia, 
+body.fotos #navegacao a#fotos {
+	color: #FFF;
+	background: #DE003E;
+	cursor: text;
+}
