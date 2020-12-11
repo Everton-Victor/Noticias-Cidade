@@ -118,6 +118,22 @@ body.fotos #navegacao a#fotos {
 /*Configurando Caixa */
 .caixa {
 	background: #F3F3F3 url(../img/fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px;
+
+}
+
+h2 {
+	font-size: 1em;
+	background: #294C71;
+	color: #FFF;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: #FFF;
+	padding: 5px;
+	margin-top: 5px;
 }
 
 /*Configurando Rodape*/
