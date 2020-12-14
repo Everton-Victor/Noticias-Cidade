@@ -121,6 +121,44 @@ body.fotos #navegacao a#fotos {
 	border-bottom: 1px solid #F3F3F3;
 }
 
+#barra-lateral ul a:hover {
+	color: #A1A1A1;
+	background: #F9F9F9 url(../img/marcador.png) no-repeat left center;
+	text-indent: 20px;
+
+}
+
+/*Formatando formulário*/
+label {
+	display: block;
+	cursor: pointer;
+}
+form.news>div {
+	margin-bottom: 8px;
+}
+input {
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+input[name="email"] {
+	width: 140px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+
+input.submit {
+	width: 80px;
+	color: #FFF;
+	background: #B10333;
+	border: 2px solid #870529;
+	cursor: pointer;
+}
+
+input.submit:hover {
+	background: #DE003E;
+}
+
 #container-rodape {
 	clear: both;
 	background: #294C71;
@@ -154,3 +192,4 @@ h2 {
 	margin: 0 auto;
 	color: #FFF;
 }
+
