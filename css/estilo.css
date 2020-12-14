@@ -109,6 +109,18 @@ body.fotos #navegacao a#fotos {
 	margin-bottom: 20px;
 }
 
+
+/*Formatar menu lateral*/
+#barra-lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #F3F3F3;
+}
+
 #container-rodape {
 	clear: both;
 	background: #294C71;
