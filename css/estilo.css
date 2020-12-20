@@ -28,6 +28,16 @@ body {
 	text-indent: -30000px;
 }
 
+/*Barra de navegação*/
+a:link, a:visited {
+	color: #B10333;
+	padding: 2px;
+}
+
+a:hover {
+	color: #E50040;
+}
+
 ul {
 	list-style: none;
 }
@@ -196,6 +206,40 @@ h3 {
 .entrevista h3 {
 	color: #000;
 	background-color: #DE003E;
+}
+
+/* Formatando lista de notícias */
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #CCC;
+	height: 62px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3E7AB9;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7;
+	color: #000;
+
+}
+
+#lista-noticias li:hover {
+	background-color: #EEE;
+	cursor: pointer;
+
 }
 
 /*Formatando imagens*/
